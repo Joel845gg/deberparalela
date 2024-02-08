@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Alineación centrada */
+}
+
+.info {
+    text-align: left; /* Alineación del texto a la izquierda dentro de .info */
+}
+
+.info p {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee; /* Línea divisoria */
+}
+
+.info p:last-child {
+    border-bottom: none; /* Quitamos la línea divisoria del último elemento */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 20px 0 0; /* Espacio arriba */
+    padding: 0;
+    text-align: center; /* Alineación centrada */
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.menu ul li a:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+}
